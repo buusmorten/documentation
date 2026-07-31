@@ -58,6 +58,6 @@ This policy may be updated when app functionality or service providers change.
 
 ## Contact
 
-Developer: Morten Buus  
-Email: `morten@noget.org`  
-Support: [DTRAPP Support and Feedback](support.md)
+- Developer: Morten Buus
+- Email: `morten@noget.org`
+- Support: [DTRAPP Support and Feedback](support.md)
