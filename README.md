@@ -1,26 +1,23 @@
-# Public Product Documentation
+# Product Documentation Directory
 
-This repository is the canonical public documentation hub for software developed
-by Morten Buus. It contains product support, privacy, security, legal, deployment,
-and operational guidance intended for customers, administrators, reviewers, and
-App Store listings.
+Public documentation is maintained in a separate repository for each product. This
+repository has been retired and is retained only as a read-only directory. It is no
+longer the source for product policies or support guides.
 
 ## Products
 
-- [Remote.Me](remote.me/README.md) — remote desktop for macOS
-- [CubeHarbor](cubeharbor/README.md) — Minecraft server management for macOS
-- [DTRAPP](dtrapp/README.md) — Den Tunge Radio for iPhone and iPad
-- [Lattice-VM](lattice-vm/README.md) — open-source virtual machine manager for Apple platforms
+- [Remote.Me documentation](https://github.com/buusmorten/remote-me-documentation)
+- [CubeHarbor documentation](https://github.com/buusmorten/cubeharbor-documentation)
+- [DTRAPP documentation](https://github.com/buusmorten/dtrapp-documentation)
+- [Lattice-VM documentation](https://github.com/buusmorten/lattice-vm-documentation)
 
 ## Help and feedback
 
-Use the repository's [public request forms](https://github.com/buusmorten/documentation/issues/new/choose)
-for support questions, bug reports, and feature requests. Never post credentials,
-private keys, access tokens, private screen content, or other sensitive data in a
-public issue.
+Use the issue forms in the relevant product repository. Never post credentials,
+private keys, access tokens, private content, or other sensitive data publicly.
 
-Security vulnerabilities must follow [SECURITY.md](SECURITY.md), not the public
-issue tracker.
+Security vulnerabilities must use the private reporting instructions in the
+relevant product repository, not a public issue.
 
 ## Document status
 
