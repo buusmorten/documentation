@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible, non-sensitive defect
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [Remote.Me, CubeHarbor, MacMine]
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: App and macOS versions
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Public information check
+      options:
+        - label: This report contains no vulnerability details, secrets, personal data, or private content.
+          required: true

@@ -1,0 +1,50 @@
+name: Product support
+description: Ask for help with a supported product
+title: "[Support]: "
+labels: [support]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Remote.Me
+        - CubeHarbor
+        - MacMine
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Connection or network
+        - Permissions
+        - Purchase or subscription
+        - Enterprise identity
+        - Accessibility
+        - Installation or launch
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: App and macOS versions
+      placeholder: "App 1.1 (build …), macOS …"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the expected and actual behavior. Remove sensitive information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Public information check
+      options:
+        - label: I removed passwords, tokens, keys, private screen content, personal data, and unnecessary IP addresses.
+          required: true
