@@ -7,7 +7,7 @@ body:
     id: product
     attributes:
       label: Product
-      options: [Remote.Me, CubeHarbor, MacMine]
+      options: [Remote.Me, CubeHarbor, DTRAPP / Den Tunge Radio, Lattice-VM]
     validations:
       required: true
   - type: textarea

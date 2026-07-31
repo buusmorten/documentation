@@ -10,7 +10,8 @@ body:
       options:
         - Remote.Me
         - CubeHarbor
-        - MacMine
+        - DTRAPP / Den Tunge Radio
+        - Lattice-VM
     validations:
       required: true
   - type: dropdown

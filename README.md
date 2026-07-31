@@ -9,7 +9,8 @@ App Store listings.
 
 - [Remote.Me](remote.me/README.md) — remote desktop for macOS
 - [CubeHarbor](cubeharbor/README.md) — Minecraft server management for macOS
-- [MacMine](macmine/README.md) — Minecraft server management for macOS
+- [DTRAPP](dtrapp/README.md) — Den Tunge Radio for iPhone and iPad
+- [Lattice-VM](lattice-vm/README.md) — open-source virtual machine manager for Apple platforms
 
 ## Help and feedback
 
